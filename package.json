@@ -1,0 +1,30 @@
+{
+  "name": "ll-cli-template",
+  "version": "1.0.0",
+  "description": "simple template for node cli tools",
+  "main": "index.js",
+  "bin": {
+    "test": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkuzmick/ll-cli-template.git"
+  },
+  "author": "Marlon Kuzmick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkuzmick/ll-cli-template/issues"
+  },
+  "homepage": "https://github.com/mkuzmick/ll-cli-template#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "configstore": "^4.0.0",
+    "fs-extra": "^8.0.1",
+    "moment": "^2.24.0",
+    "yargs": "^13.2.4"
+  }
+}
