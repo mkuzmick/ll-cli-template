@@ -4,7 +4,7 @@
   "description": "simple template for node cli tools",
   "main": "index.js",
   "bin": {
-    "test": "cli.js"
+    "testthis": "cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,9 +20,12 @@
   },
   "homepage": "https://github.com/mkuzmick/ll-cli-template#readme",
   "dependencies": {
+    "airtable": "^0.6.0",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "configstore": "^4.0.0",
+    "dotenv": "^8.0.0",
+    "figlet": "^1.2.3",
     "fs-extra": "^8.0.1",
     "moment": "^2.24.0",
     "yargs": "^13.2.4"
