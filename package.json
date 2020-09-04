@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/mkuzmick/ll-cli-template#readme",
   "dependencies": {
-    "airtable": "^0.6.0",
+    "airtable": "^0.7.2",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "configstore": "^4.0.0",
